@@ -1,1 +1,1 @@
-# AISocietyIITJ.github.io
+# AI Society Website
