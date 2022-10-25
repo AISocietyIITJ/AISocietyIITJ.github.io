@@ -1,0 +1,24 @@
+.ok{
+    background-image: linear-gradient(#240046,#3c096c,#5a189a,#7b2cbf,#9d4edd);
+    height: 100vh;
+    color: #9d4edd;
+    z-index: auto;
+
+}
+*{
+    margin: 0%;
+    padding: 0;
+
+}
+
+.ok .about{
+    color: red;
+    z-index: index auto;;
+}
+
+.circle{
+    height: 20px;
+    background-color: aqua;
+    position: relative;
+    top: -8px;
+    z-index: 0;}

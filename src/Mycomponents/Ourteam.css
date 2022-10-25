@@ -1,0 +1,10 @@
+.color{
+    background-color: #4A4238;
+}
+
+.color .grid-container span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}

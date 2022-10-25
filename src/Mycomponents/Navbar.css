@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    z-index: inherit;
 }
 
 nav{
@@ -28,11 +29,14 @@ li{
     padding-left: 35px;
     padding-bottom: 3px;
 }
-p{
+
+
+.all nav ul p{
     text-decoration: none;
     color: white;
     list-style: none;
     font-size: 25px;
+    z-index: 1;
 }
 
 .raid{
@@ -91,6 +95,6 @@ p{
 }
 
 
-p:hover{
+.all nav ul p:hover{
     color: #fbff07;
 }
