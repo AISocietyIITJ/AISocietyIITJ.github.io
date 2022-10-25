@@ -17,7 +17,7 @@ body{
 
 .card .card1{
     background-color: blue;
-    background-image: linear-gradient(to right, rgb(160, 8, 33),rgb(144, 0, 255),rgb(0, 30, 255));
+    background-image: linear-gradient(to right, rgb(84, 138, 81),rgb(144, 0, 255),rgb(0, 30, 255));
     position: absolute;
     top: 2px;
     left: 2px;
@@ -173,4 +173,53 @@ body{
     color: rgb(195, 24, 166);
     font-weight: bold;
     text-decoration: underline rgb(249, 0, 183);
+}
+
+@media only screen and (max-width:479px){
+    .card{
+        background: #f41111;
+        height: 200px;
+        width: 250px;
+        position: relative;
+        top: 300px;
+        left: 50px;
+        margin-bottom: 200px;
+        padding-bottom: 200px;
+    }
+    .card .card1{
+        background-color: blue;
+        background-image: linear-gradient(to right, rgb(84, 138, 81),rgb(144, 0, 255),rgb(0, 30, 255));
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 190px;
+        width: 246px;
+    }
+    .card .card1 .card2{
+        background-color: whitesmoke;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        height: 180px;
+        width: 236px;
+    }
+    .content{
+        position: relative;
+        height: 180px;
+        width: 235px;
+        background-color: rgb(188, 206, 207);
+        overflow: hidden;
+    }
+    
+    .content .links a{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        transition: 0.2s;
+}
+.card:hover .image{
+    width: 200px ;
+    height: 200px;
+    transform: translateX(-25%);
+}
 }
