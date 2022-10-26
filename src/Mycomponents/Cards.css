@@ -3,7 +3,8 @@ body{
 }
 
 .card{
-    background: white;
+    background: rgb(49, 82, 214);
+    background-image: linear-gradient(rgb(228, 18, 155),rgb(214, 24, 68),rgb(121, 4, 157));
     height: 200px;
     width: 290px;
     position: relative;
@@ -28,7 +29,7 @@ body{
 }
 
 .card .card1 .card2 {
-    background-color: whitesmoke;
+    background-color: rgb(105, 17, 163);
     position: absolute;
     top: 5px;
     left: 5px;
@@ -57,7 +58,7 @@ body{
 
 .image{
     position: absolute;
-    background-color: rgb(222, 205, 237);
+    background-color: rgb(235, 225, 33);
     width: 100px;
     height: 100px;
     left: 30%;
@@ -80,6 +81,7 @@ body{
     height: 180px;
     width: 276px;
     background-color: rgb(188, 206, 207);
+    background-image: radial-gradient( rgba(126, 45, 218, 0.692),rgba(138, 33, 179, 0.71),rgb(93, 15, 132));
     overflow: hidden;
     transition: 0.5s;
     border-radius: 10px;

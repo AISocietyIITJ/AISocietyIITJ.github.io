@@ -66,8 +66,8 @@ li{
     nav{
         background-color: rgb(27, 27, 58);
     }
-    p{
-        font-size: small;
+    .all nav ul p{
+        font-size: 15px;
         color: white;
     }
     li{
