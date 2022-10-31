@@ -20,7 +20,7 @@ function Cards(props) {
                 <p>{props.description}</p>
               </div>
               <div className="links">
-                <a className='g' href='/'>github</a>
+                <a className='g' href='/'>Github</a>
                 <a className='l' href="/">Linkedin</a>
                 <a className='i' href="/">Insta</a>
               </div>
