@@ -59,3 +59,8 @@
 .pro_image img:hover{
     opacity: 1;
 }
+
+*{
+    text-decoration: none;
+    color: black;
+}

@@ -9,8 +9,14 @@
     width: 26vw;
     padding-left: 10px;
     overflow-x: hidden;
-    
+    text-decoration: none;
 }
+
+.container_of_project_items Link{
+    text-decoration: none;
+    color: black;
+}
+
 
 .container_of_project_items::-webkit-scrollbar{
     width: 10px;
