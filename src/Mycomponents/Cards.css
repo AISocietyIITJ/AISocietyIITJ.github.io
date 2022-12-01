@@ -177,7 +177,7 @@ body{
     text-decoration: underline rgb(249, 0, 183);
 }
 
-@media only screen and (max-width:479px){
+@media only screen and (max-width:459px){
     .card{
         background: #f41111;
         height: 200px;
@@ -187,6 +187,7 @@ body{
         left: 60px;
         margin-bottom: 200px;
         padding-bottom: 200px;
+        
     }
     .card .card1{
         background-color: blue;
@@ -218,6 +219,10 @@ body{
         color: black;
         font-size: 1em;
         transition: 0.2s;
+}
+body{
+    height: 50px;
+    top: 50px;
 }
 .card:hover .image{
     width: 200px ;

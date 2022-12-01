@@ -9,7 +9,7 @@ function Ourteam() {
     <div className="color">
     <div className="grid-container">
       <span>
-        <div className="space" ><Cards name = 'Coordinator'/> <br /></div>
+        <div className="space" id='first' ><Cards name = 'Coordinator'/> <br /></div>
         <div className="space" ><Cards name = 'Coordinator'/> <br /></div>
         <div className="space" ><Cards name = 'Coordinator'/> <br /></div>
       </span>

@@ -1,6 +1,7 @@
 .container_of_project_items{
     margin-top: 10px;
     background-color: yellowgreen;
+    background-image: linear-gradient( rgb(27, 27, 58), rgb(80, 62, 198),rgb(27, 27, 58));
     position: relative;
     top: -10px;
     padding-top: 10px;
@@ -38,4 +39,22 @@
 
 .container_of_project_items:hover::-webkit-scrollbar-track{
     background-color: blue;
+}
+
+@media only screen and (max-width:479px){
+    .container_of_project_items{
+        margin-top: 10px;
+        background-color: yellowgreen;
+        background-image: linear-gradient( rgb(27, 27, 58), rgb(80, 62, 198),rgb(27, 27, 58));
+        position: relative;
+        top: -10px;
+        padding-top: 10px;
+        height: 100vh;
+        overflow: scroll;
+        width: 100vw;
+        padding-left: 10px;
+        overflow-x: hidden;
+        text-decoration: none;
+    }
+    
 }

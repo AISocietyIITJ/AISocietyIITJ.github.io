@@ -10,6 +10,7 @@ function Project() {
     return (
         <>
         <Navbar/>
+        <span>
         <div className='container_of_project_items'>
             <Link  to="/project/first"><Projectitems image={pic} name='Piyush' content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'/></Link>
             <Link  to="/project/second"><Projectitems image='' name='Piyush' content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'/></Link>
@@ -17,10 +18,8 @@ function Project() {
             <Link  to="/project/fourth"><Projectitems image='' name='amazing' content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor '/></Link>
             <Link  to="/project/fifth"><Projectitems image='' name='amazing' content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor '/></Link>
         </div>
-        <Routes>
-            <Route exact path='/project/first' element={<Template/>}/>
-        </Routes>
-
+        <div className="cover"></div>
+        </span>
         </>
     )
 }
