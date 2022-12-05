@@ -8,11 +8,12 @@ body{
     height: 200px;
     width: 290px;
     position: relative;
-    top: 300px;
-    left: 50px;
+    top: 120px;
+    left: 25px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    margin-bottom: 5px;
 
 }
 
@@ -220,13 +221,17 @@ body{
         font-size: 1em;
         transition: 0.2s;
 }
-body{
-    height: 50px;
-    top: 50px;
-}
+
 .card:hover .image{
     width: 200px ;
     height: 200px;
     transform: translateX(-25%);
 }
+}
+
+.container-cards{
+    display: grid;
+    gap: 120px 0px;
+    justify-items: center;
+    grid-template-columns: 33% 33% 33%;
 }
