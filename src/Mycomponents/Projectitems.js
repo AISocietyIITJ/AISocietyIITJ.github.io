@@ -1,17 +1,17 @@
 import React from 'react'
 import './Projectitem.css'
-function Projectitems(props) {
+function Projectitems({data}) {
+  const {id, image, name, content, path} = data; 
   return (
-    <div className='pack'>
-        
+    <div className='pack'>            
             <div className="pro_image">
-                <img src={props.image} alt="image of project" srcset="" />
+                <img src={image} alt={name} srcset="" />
             </div>
             <div className="pro_content">
-                <h2>{props.name}</h2>
-                <p>{props.content}</p>
+                <h2>{name}</h2>
+                <p>{content}</p>
             </div>
-        
+
     </div>
   )
 }
