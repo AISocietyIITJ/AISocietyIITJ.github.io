@@ -14,7 +14,10 @@ body{
     cursor: pointer;
     transition: 0.5s;
     margin-bottom: 5px;
-
+    display: flex;
+    margin-left: 150px;
+    justify-items: center;
+    margin-bottom: 100px;
 }
 
 .card .card1{
@@ -184,11 +187,15 @@ body{
         height: 200px;
         width: 250px;
         position: relative;
-        top: 300px;
+        top: 100px;
         left: 60px;
         margin-bottom: 200px;
         padding-bottom: 200px;
-        
+        display: flex;
+        margin-left: 13px;
+        justify-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .card .card1{
         background-color: blue;
@@ -220,7 +227,11 @@ body{
         color: black;
         font-size: 1em;
         transition: 0.2s;
-}
+    }
+    .container-cards{
+        display: block;
+    }
+
 
 .card:hover .image{
     width: 200px ;
@@ -230,8 +241,7 @@ body{
 }
 
 .container-cards{
-    display: grid;
-    gap: 120px 0px;
-    justify-items: center;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
 }
