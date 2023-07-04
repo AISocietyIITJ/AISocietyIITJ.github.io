@@ -8,12 +8,16 @@ body{
     height: 200px;
     width: 290px;
     position: relative;
-    top: 300px;
-    left: 50px;
+    top: 120px;
+    left: 25px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
-
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: 150px;
+    justify-items: center;
+    margin-bottom: 100px;
 }
 
 .card .card1{
@@ -177,16 +181,21 @@ body{
     text-decoration: underline rgb(249, 0, 183);
 }
 
-@media only screen and (max-width:479px){
+@media only screen and (max-width:459px){
     .card{
         background: #f41111;
         height: 200px;
         width: 250px;
         position: relative;
-        top: 300px;
-        left: 50px;
+        top: 100px;
+        left: 60px;
         margin-bottom: 200px;
         padding-bottom: 200px;
+        display: flex;
+        margin-left: 13px;
+        justify-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .card .card1{
         background-color: blue;
@@ -218,10 +227,21 @@ body{
         color: black;
         font-size: 1em;
         transition: 0.2s;
-}
+    }
+    .container-cards{
+        display: block;
+    }
+
+
 .card:hover .image{
     width: 200px ;
     height: 200px;
     transform: translateX(-25%);
 }
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
 }
